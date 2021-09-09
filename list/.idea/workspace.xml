@@ -4,62 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b440790-8b3c-4cbc-b89d-69c496ee42c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../textelem/src/main/kotlin/kotlin2021/textelem/textelem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helloworld/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helloworld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helloworld/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/hw2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/out/production/hw2/META-INF/hw2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/src/kotlin21/hw2/hw2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/list.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kotlin2021/list.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kotlin2021/HelloTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_5_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_5_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_5_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_5_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_junit_1_5_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_junit_1_5_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/mainModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mainModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/src/main/kotlin/kotlin2021/list/list.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kotlin2021/list/list.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../list2/target/classes/META-INF/mainModule.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/mainModule.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../textelem/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../textelem/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../textelem/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../textelem/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../textelem/mainModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../textelem/list.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../textelem/src/main/kotlin/textelem/textelem.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../textelem/target/classes/META-INF/mainModule.kotlin_module" beforeDir="false" />
-    </list>
+    <list default="true" id="9b440790-8b3c-4cbc-b89d-69c496ee42c8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
