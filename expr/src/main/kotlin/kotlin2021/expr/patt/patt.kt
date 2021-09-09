@@ -19,6 +19,8 @@ open class NumPatt(val value: Int) : Patt {
 object OnePatt : NumPatt(1)
 object ZeroPatt : NumPatt(0)
 
+object OnePlsPatt
+
 fun Expr.optim() =
     when {
 
