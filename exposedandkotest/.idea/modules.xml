@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/exposed.iml" filepath="$PROJECT_DIR$/exposed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exposedandkotest.iml" filepath="$PROJECT_DIR$/exposedandkotest.iml" />
     </modules>
   </component>
 </project>

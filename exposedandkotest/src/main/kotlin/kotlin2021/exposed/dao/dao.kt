@@ -31,7 +31,7 @@ class ReceiptEnt(id: EntityID<Int>) : Entity<Int>(id) {
     var cust by ReceiptTable.custId
 }
 
-object CustomerDAOExposed2 {
+object CustomerDAOExposed {
 
     init {
         Database.connect(
@@ -67,7 +67,7 @@ object CustomerDAOExposed2 {
 
 fun main() {
 
-    with(CustomerDAOExposed2) {
+    with(CustomerDAOExposed) {
         val tomId = createCust("Tom")
         createRcpt(tomId, "rcpt1 for Tom")
         createRcpt(tomId, "rcpt2 for Tom")

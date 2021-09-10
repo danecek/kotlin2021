@@ -24,7 +24,7 @@ object ReceiptTable : IntIdTable() {
     val custId = reference("cust_id", CustomerTable)
 }
 
-object CustomerDAOExposed {
+object CustomerExposed {
     init {
         Database.connect(
             "jdbc:h2:mem:test;DB_CLOSE_DELAY=-1",
@@ -87,7 +87,7 @@ object CustomerDAOExposed {
 
 fun main() {
 
-    with(CustomerDAOExposed) {
+    with(CustomerExposed) {
         val tomId = createCust("Tom")
         val bobId = createCust("Bob")
         println(custById(tomId))
