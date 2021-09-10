@@ -16,14 +16,20 @@ object UnivPatt: Patt {
 open class NumPatt(val value: Int) : Patt {
     override fun match(e: Expr) = e is Num && e.value == value
 }
+
+open  class BinPatt(val ops: Array<Op> = Op.values(), val lp:Patt = UnivPatt, val rp:UnivPatt) : Patt {
+    override fun match(e: Expr): Boolean = e is Bin && e.op in ops && lp.match(e.left) && rp.match(e)
+}
+
+object ZeroPls : BinPatt(ops= arrayOf(Op.PLS), ZeroPatt, UnivPatt)
+
 object OnePatt : NumPatt(1)
 object ZeroPatt : NumPatt(0)
 
-object OnePlsPatt
 
-fun Expr.optim() =
+fun Expr.optim(): Expr =
     when {
-
+      ZeroPls.match(this) -> (this as Bin).right.optim()
       else -> this
     }
 

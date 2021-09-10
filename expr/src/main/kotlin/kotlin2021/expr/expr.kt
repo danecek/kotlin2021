@@ -19,7 +19,7 @@ enum class Op(val pri: Int) {
     }
 }
 
-class Bin(val op: Op, val left: Expr, val right: Expr) : Expr {
+data class Bin(val op: Op, val left: Expr, val right: Expr) : Expr {
     override val pri= op.pri
     override val value: Int = when (op) {
         Op.PLS -> left.value + right.value
