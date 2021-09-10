@@ -28,8 +28,9 @@ data class Bin(val op: Op, val left: Expr, val right: Expr) : Expr {
 
     override fun toString(): String {
         fun String.encl() = "($this)"
-        val l = if (pri > left.pri)  left.toString() else left.toString().encl()
-        val r = if (pri > right.pri)  right.toString() else right.toString().encl()
+   //     val l = if (pri >= left.pri)  left.toString() else left.toString().encl()
+        val l = if (left.pri > pri)  left.toString().encl() else left.toString()
+        val r = if (pri >= right.pri)  right.toString() else right.toString().encl()
         return "$l $op $r"
     }
 
