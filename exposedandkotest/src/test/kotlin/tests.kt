@@ -21,10 +21,10 @@ fun String.shouldBeName() = this should nameMatcher()
 class PropertyExample : StringSpec({
 
 
-    val tomId = CustomerExposed.createCust("Tom")
+    val tomId = CustomerExposed.createCust("tom")
     val rcptDscs = listOf("tomsreceipt1", "tomsreceipt2")
     "cust test" {
-        custById(tomId).name shouldBe "Tom"
+        custById(tomId).name.shouldBeName()
     }
     "receipt test" {
         createRcpt(tomId, rcptDscs[0])
